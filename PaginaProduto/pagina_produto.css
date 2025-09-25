@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+header .container{
+    height: 5.5em;
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5em;
+    position: absolute;
+    margin-right: 104em;
+}
+
+header .logo img{
+    width: 4.2em;
+    height: 4.2em;
+    position: relative;
+    margin-bottom: 0.6em;
+}
+
+header .h1Logo{
+    color: white;
+    margin-bottom: 0.05em;
+    font-size: 3em;
+    position: relative;
+    margin-top: 0.55em;
+    margin-left: 0.1em;
+}
+
+header .container a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav{
+    height: 3.6em;
+    background-color: rgb(251 119 48);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 80em;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+
+.produto-imagem{
+    margin-top: 50px;
+    margin-left: 10%;
+    height: 600px;
+    width: 40%;
+    float: left;
+    position: absolute;
+}
+
+.produto-miniatura{
+    height: 600px;
+    width: 10%;
+    float: left;
+}
+
+.produto-miniatura img{
+    height: 90px;
+    margin-top: 10px;
+    display: block;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.produto-miniatura img:hover{
+    opacity: 1;
+    border: 2px solid rgb(251,86,48);
+}
+
+.produto-principal{
+    height: 600px;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
+    float: right;
+}
+
+.produto-principal img{
+    height: 490px;
+    width: 100%;
+}
+
+.produto-detalhes{
+    margin-top: 50px;
+    margin-right: 10%;
+    height: 600px;
+    width: 40%;
+    float: right;
+}
+
+.produto-detalhes p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.produto-detalhes .botao{
+    height: 40px;
+    cursor: pointer;
+    background-color: rgba(255,255,255);
+    color: rgba(0,0,0,.8);
+    border: 1px solid rgba(0,0,0,.09);
+    margin: 10px 8px 8px 10px;
+    padding: 0.25rem 0.75rem;
+    justify-content: center;
+}
+
+.produto-detalhes .botao:hover{
+    color: rgb(251,86,48);
+    border: 1px solid rgb(251,86,48);
+}
+
+.produto-detalhes #botaoComprar{
+    height: 60px;
+    cursor: pointer;
+    background-color: rgb(251,86,48);
+    color: rgb(255,255,255);
+    border: 1px solid rgb(251,86,48);
+    margin: 10px 8px 8px 10px;
+    padding: 0.25rem 0.75rem;
+    justify-content: center;
+}
+
+.produto-detalhes #botaoComprar:hover{
+    opacity: 0.9;
+}
+
+.produto-detalhes #precoProduto{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.875rem;
+    color: rgb(251,86,48);
+}
+
+.menu-horizontal ul{
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-horizontal ul li{
+    list-style: none;
+}
+
+.menu-horizontal ul li a{
+    font-size: 20px;
+    color: rgb(251,86,48);
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.menu-horizontal ul li a:hover{
+    font-weight: bold;
+    color: rgb(251,86,48);
+    background-color: rgb(255, 255, 255);
+}

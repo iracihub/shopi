@@ -2,80 +2,70 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Cadastre-se Agora!</title>
-    <link rel="stylesheet" href="cadastrar_cliente.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-
     <header>
         <div class="container">
-            <div class="logo">
+            <div clas="logo">
                 <img src="img/logo.png" alt="">
                 <h1 class="h1Logo">Xhopii</h1>
             </div>
-            <a id="fazer-login" href="/login/login.html">Fazer Login</a>
-        </div>            
+            <a class="ajuda" href="#">Precxisa de ajuda?</a>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="/home/home.html">Home</a></li>
-
-            <li><a href="/cadastroCliente/cadastrar_cliente.html">Cadastro Cliente</a></li>
-
-            <li><a href="/cadastroFuncionario/cadastrar_funcionario.html">Cadastro Funcionário</a></li>
-
-            <li><a href="/cadastroProduto/cadastrar_produto.html">Cadastro Produto</a></li>
-
-            <li><a href="#">Ver Clientes</a></li>
-
-            <li><a href="#">Ver Funcionários</a></li>
-
-            <li id="li"><a href="/visualizacaoProdutos/visualizacao_produtos.html">Ver Produtos</a></li>
-        </ul>
-    </nav>
-
     <section>
-        <form>
-            <h1>Cadastrar Cliente</h1>
-            <input type="text" placeholder="Nome">
-            <input type="text" placeholder="Sobrenome">
-            <input type="text" placeholder="CPF">
-            <input type="date">
-            <input type="tel" placeholder="Telefone">
-            <input type="email" placeholder="E-mail">
-            <input type="password" placeholder="Senha">
-            <h2>Selecionar foto de perfil:</h2>
-            <div class="enviar-foto">
-                <button>Escolher arquivo</button>
-                <p>Nenhum arquivo escolhido</p>
+        <form class="formulario">
+            <h1>Login</h1>
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Senha">
+            <button type="button" onclick="window.location.href='/home/home.html'">ENTRE</button>
+            <div class="login-social">
+                <a href="/redefinirSenha/redefinir_senha.html">Esqueci minha senha</a>
+                <a href="#">Fazer login com SMS</a>
             </div>
-            <input class="cadastrar" type="submit" value="CADASTRAR">
+            <div class="OU">
+                <div class="linha"></div>
+                <h1>OU</h1>
+                <div class="linha"></div>
+            </div>
+            <div class="iconnes-social">
+                <button class="social-botao"><img src="img/facebook-icon.png" alt="">Facebook</button>
+                <button class="social-botao"><img src="img/google-icon.png" alt="">Google</button>
+                <button class="social-botao"><img src="img/apple-icon.png" alt="">Apple</button>
+            </div>
+            <div class="cadastro">
+                <p>Novo na Xhopii?</p>
+                <a href="#">Cadastrar</a>
+            </div>
         </form>
     </section>
-    
+
     <footer>
         <div class="informacao-footer">
             <div class="atendimento">
                 <h1>ATENDIMENTO AO CLIENTE</h1>
-                <p>Central de Ajuda</p>
-                <p>Como Comprar</p>
-                <p>Métodos de Pagamento</p>
+                <p>Central de ajuda</p>
+                <p>Como comprar</p>
+                <p>Métodos de pagamento</p>
                 <p>Garantia Xhopii</p>
-                <p>Devolução e Reembolso</p>
-                <p>Fale Conosco</p>
+                <p>Devolução e reembolso</p>
+                <p>Fale conosco</p>
                 <p>Ouvidoria</p>
             </div>
             <div class="sobre">
                 <h1>SOBRE A XHOPII</h1>
-                <p>Sobre Nós</p>
+                <p>Sobre nós</p>
                 <p>Políticas Xhopii</p>
-                <p>Política de Privacidade</p>
-                <p>Programa de Aliados da Xhopii</p>
-                <p>Seja um Entregador Xhopii</p>
-                <p>Ofertas Relâmpago</p>
-                <p>Xhopii Blog</p>
-                <p>Impresa</p>
+                <p>Política de privacidade</p>
+                <p>Programa de aliados da Xhopii</p>
+                <p>Seja um entregador Xhopii</p>
+                <p>Ofertas relâmpago</p>
+                <p>Xhopii blog</p>
+                <p>Empresa</p>
             </div>
             <div class="pagamento">
                 <h1>PAGAMENTO</h1>
@@ -89,7 +79,7 @@
                     <img src="https://down-br.img.susercontent.com/file/2d091a1c189e8e4c529a73f3ec3a118d" alt="">
                 </div>
             </div>
-            <div class="siganos">
+            <div class="siga-nos">
                 <h1>SIGA-NOS</h1>
                 <section class="sociais">                    
                     <img src="https://down-br.img.susercontent.com/file/aed1aaab6a81b4347b440d981f0cf76f" alt=""><p>Instagram</p>
@@ -116,3 +106,7 @@
     
 </body>
 </html>
+
+    
+    
+  

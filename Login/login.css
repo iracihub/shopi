@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: orangered;
+}
+
+header{
+    height: 5.6em;
+    background-color: rgb(245,245,245);
+    display: flex;
+    justify-content: center;
+}
+
+header .container{
+    width: 70em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo{
+    height: 5.6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .logo img{
+    width: 4.2em;
+    height: 4.2em;
+}
+
+header .h1Logo{
+    color: orangered;
+    margin-bottom: 0.1em;
+    font-size: 1.95em;
+}
+
+header .h1Entre{
+    font-size: 1.95em;
+    margin-top: 0.8em;
+    font-weight: lighter;
+    position: absolute;
+    margin-right: 21em;
+}
+
+header .ajuda{
+    margin-top: 2.3em;
+    color: orangered;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .formulario{
+    width: 38em;
+    height: 44em;
+    margin-top: 1.87em;
+    background-color: white;
+    border-radius: 0.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .formulario h1{
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+section .formulario input{
+    border: 0.06em solid gainsboro;
+    width: 38.2em;
+    padding: 1.25em 1.25em;
+    margin-bottom: 3.75em;
+    border-radius: 0.31em;
+}
+
+section .formulario button{
+    border: 0.06em solid rgba(0, 0, 0, 0.514);
+    color: white;
+    background-color: orangered;
+    width: 25.6em;
+    padding: 0.9em 1.25em;
+    border-radius: 0.4em;
+    font-size: 1.25em;
+}
+
+section .formulario a {
+    z-index: 1;
+}
+
+section .formulario .login-social{
+    margin-top: 1.8em;
+    width: 31.25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section .formulario .login-social a{
+    text-decoration: none;
+    color: rgb(30, 117, 175);
+}
+
+section .formulario .ou{
+    width: 31.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .formulario .ou .linha{
+    border: 0.06em solid gainsboro;
+    height: 0;
+    width: 14.3em;
+}
+
+section .formulario .ou h1{
+    font-weight: normal;
+    color: rgb(134, 126, 126);
+}
+
+section .formulario .icones-social{
+    width: 33.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .formulario .icones-social .social-botao img{
+    width: 1.6em;
+    height: 1.6em;
+}
+
+section .formulario .icones-social .social-botao{
+    width: 8.75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+    background-color: white;
+    color: black;
+    font-size: 1.1em;
+    font-weight: normal;
+    padding: 0.6em 0.4em;
+    border: 0.06em solid gainsboro;
+}
+
+section .formulario .cadastro{
+    width: 31.25em;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    gap: 0.3em;
+    margin-top: 1.8em;
+}
+
+section .formulario .cadastro p{
+    color: rgb(172, 165, 165);
+}
+
+section .formulario .cadastro a{
+    color: orangered;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 1.8em;
+    background-color: rgb(245,245,245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .informacao-footer{
+    width: 97em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .informacao-footer h1{
+    margin-top: 4em;
+    margin-bottom: 2.1em;
+    font-size: 0.93em;
+    color: black;
+}
+
+footer .informacao-footer .sociais{
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr;
+    gap: 0.5em;
+}
+
+footer .informacao-footer img{
+    font-size: 0.9em;
+    margin-bottom: 0.4em;
+}
+
+footer .informacao-footer p{
+    color: rgb(97,94,97);
+    font-size: 0.91em;
+    margin-bottom: 0.7em;
+}
+
+footer .informacao-footer .cartao-logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.4em;
+}
+
+footer .informacao-footer .cartao-logos img{
+    width: 3.90em;
+    background-color: white;
+}
+
+footer .informacao-footer .app-qrcode{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8em;
+}
+
+footer .linha{
+    margin-top: 4em;
+    width: 99em;
+    border: 0.06em solid rgb(173, 169, 169);
+}
+
+footer .copyright{
+    margin-top: 1.25em;
+}
+
+footer .copyright p{
+    margin-bottom: 1.8em;
+    color: black;
+}
