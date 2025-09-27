@@ -27,6 +27,7 @@ header .logo{
     height: 5em;
     position: absolute;
     margin-right: 104em;
+    
 }
 
 header .logo img{
@@ -34,6 +35,7 @@ header .logo img{
     height: 4.2em;
     position: relative;
     margin-bottom: 0.6em;
+    
 }
 
 header .h1Logo{
@@ -133,6 +135,7 @@ form .enviar-foto button{
     border-radius: 0.5em;
     padding: 0.6em 1.2em;
     font-size: 1em;
+
 }
 
 form .enviar-foto p{
